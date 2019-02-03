@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+## My data
+data/glove.840B.300d.txt
+data/sgns.target.word-word.dynwin5.thr10.neg5.dim300.iter5
+.vector_cache
