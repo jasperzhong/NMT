@@ -113,3 +113,4 @@ data/sgns.target.word-word.dynwin5.thr10.neg5.dim300.iter5
 *.info
 nohup.out
 runs/
+data/
