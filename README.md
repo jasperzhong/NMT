@@ -7,7 +7,7 @@ Pytorch implementation of Neural Machine Translation with seq2seq and attention 
 
 The goal of machine translation is to maximize p(**y**|**x**). Due to the infinite space of language, directly estimating this conditional probability is impossible. Thus neural networks, which are good at fitting complex functions, are introduced into machine translation. 
 
-[Sutskever et. al 2014](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) proposed a model consisting of encoder and decoder, named `seq2seq`. Onced proposed, it set off a tornado in NMT. A number of follow-up work began (e.g. [Cho et. al](https://arxiv.org/abs/1406.1078)). One of the most famous work is the `attention` mechanism ([Bahdanau et. al 2014](https://arxiv.org/abs/1409.0473)).
+[Sutskever et. al 2014](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) proposed a model consisting of encoder and decoder, named `seq2seq`. Once proposed, it set off a tornado in NMT. A number of follow-up work began (e.g. [Cho et. al](https://arxiv.org/abs/1406.1078)). One of the most famous work is the `attention` mechanism ([Bahdanau et. al 2014](https://arxiv.org/abs/1409.0473)).
 
 In this repo, I implemented the seq2seq model with attention in PyTorch for en-zh translation. 
 
