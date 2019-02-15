@@ -15,4 +15,4 @@ if __name__=="__main__":
         with open('data/NEU.zh.tok', "w") as f2:
             for line in f1:
                 words = list(jieba.cut(line))
-                f2.write(' '.join(words) + '\n')
+                f2.write(' '.join(words))

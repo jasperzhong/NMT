@@ -1,5 +1,5 @@
 # tokenize 
-python tokenize.py
+python tokenizer.py
 
 echo "Tokenize done."
 
