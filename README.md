@@ -2,7 +2,7 @@
 
 Pytorch implementation of Neural Machine Translation with seq2seq and attention (en-zh) (英汉翻译)
 
-This repo reaches 10.44 BLEU score in my test dataset.(Use [multi-bleu.perl](https://github.com/moses-smt/mosesdecoder/blob/master/scripts/generic/multi-bleu.perl)).
+This repo reaches 10.44 BLEU score in my test dataset.(Use [multi-bleu.perl](https://github.com/moses-smt/mosesdecoder/blob/master/scripts/generic/multi-bleu.perl)). 
 
 
 ## Introduction 
@@ -93,6 +93,8 @@ Hypter-Params:
 validation loss:
 ![validation loss](doc/validation_loss.png)
 (The periodic bulge is because I reset optimizer every epoch. It is not necessary.)
+
+Perplexity reaches 5.5 in validation dataset.
 
 Trained 231K steps, nearly 4 epochs
 
