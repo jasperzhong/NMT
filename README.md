@@ -98,7 +98,7 @@ Perplexity reaches 5.5 in validation dataset.
 
 Trained 231K steps, nearly 4 epochs
 
-I found that training is a bit slow. However, some parameters including attention parameters can not be tuned well with larger learing rate.
+I found that training is a bit slow. However, some parameters including attention parameters can not be tuned well with larger learning rate.
 
 
 
